@@ -1,0 +1,99 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+	height:100%;
+	font-size: 100%;
+}
+
+body{
+	background-color: #92E2FC;
+}
+
+a{
+	text-decoration: none;
+	color:#3884FF;
+}
+a:visited{
+	color:#3884FF;
+}
+a:hover{
+	color:#3072DB;
+}
+a:active{
+	position: relative;
+	top: 1px;
+}
+
+
+.container{
+	position: relative;
+	width:960px;
+	height:100%;
+	margin:0px auto;
+	font-family: Arial;
+
+	background-color: #C7EFFC;
+}
+
+.title{
+	/*font-family: 'Open Sans', sans-serif;
+	font-size: 5em;
+	text-align: center;*/
+	padding-top: 10px;
+	width:100%;
+	height:85px;
+	background-image:url("img/MoreGrey.png");
+	background-repeat: no-repeat;
+	background-position:center; 
+}
+
+.buttons{
+	margin-top: 1em;
+	word-spacing: 3em;
+	text-align: center;
+}
+
+.content{
+	background-color: white;
+	margin-top: 1.5em;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.contentTitle{
+	font-family: Georgia;
+	font-size: 2.25em;
+}
+
+.contentBody{
+	padding-top: 2.5%;
+	word-spacing: 1px;
+	line-height: 27px;
+}
+
+#tweet{
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 524px) {
+	.container{
+		width:524px;
+	}
+
+	.content{
+		padding-left: 3px;
+		padding-right: 3px;
+		width:524px;
+	}
+}
+
+
+
+
+
+
+
+
+
